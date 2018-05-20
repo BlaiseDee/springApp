@@ -21,14 +21,6 @@ public class Author {
 
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public Author(String fistName, String lastName) {
         this.fistName = fistName;
         this.lastName = lastName;
@@ -38,6 +30,14 @@ public class Author {
         this.fistName = fistName;
         this.lastName = lastName;
         this.books = books;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFistName() {
